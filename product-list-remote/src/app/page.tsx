@@ -1,7 +1,7 @@
 "use client";
 
 import { Suspense } from "react";
-import Products from "./productList/page";
+import Products from "@/components/ProductList";
 import { Spin } from "antd";
 import { Provider } from "react-redux";
 import { store } from "@/redux/store";

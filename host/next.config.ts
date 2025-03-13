@@ -8,8 +8,8 @@ const nextConfig: NextConfig = {
         destination: `${process.env.NEXT_PUBLIC_PRODUCTS_REMOTE_URL}/products/:path*`
       },
       {
-        source: '/basket/:path*',
-        destination: `${process.env.NEXT_PUBLIC_BASKET_REMOTE_URL}/basket/:path*`
+        source: '/basket',
+        destination: `${process.env.NEXT_PUBLIC_BASKET_REMOTE_URL}/basket`
       }
     ];
   }
